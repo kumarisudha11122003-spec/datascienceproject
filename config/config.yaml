@@ -1,0 +1,37 @@
+artifacts_root: artifacts
+
+#data_ingestion:
+#  root_dir: artifacts/data_ingestion
+#  source_URL: https://github.com/kumarisudha11122003-spec/datascienceproject/raw/main/config/winequality-data/winequality-red.csv
+#  local_data_file: artifacts/data_ingestion/winequality-red.csv
+#  unzip_dir: artifacts/data_ingestion
+
+#data_validation:
+#root_dir: artifacts/data_validation
+#unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
+#STATUS_FILE: artifacts/data_validation/status.txt
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/kumarisudha11122003-spec/datascienceproject/raw/main/config/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+  all_schema:
+    fixed acidity: float64
+    volatile acidity: float64
+    citric acid: float64
+    residual sugar: float64
+    chlorides: float64
+    free sulfur dioxide: float64
+    total sulfur dioxide: float64
+    density: float64
+    pH: float64
+    sulphates: float64
+    alcohol: float64
+    quality: int64
+  
