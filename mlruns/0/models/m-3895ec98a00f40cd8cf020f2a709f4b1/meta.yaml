@@ -1,0 +1,10 @@
+artifact_location: file:///F:/datascienceproject/mlruns/0/models/m-3895ec98a00f40cd8cf020f2a709f4b1/artifacts
+creation_timestamp: 1763631082918
+experiment_id: '0'
+last_updated_timestamp: 1763631152275
+model_id: m-3895ec98a00f40cd8cf020f2a709f4b1
+model_type: null
+name: model
+source_run_id: 64ceb762625646f4b0ebd5ca07528eb0
+status: 2
+status_message: null
